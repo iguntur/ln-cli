@@ -1,0 +1,47 @@
+{
+  "name": "ln-cli",
+  "version": "0.0.0",
+  "description": "Create or delete symlinks using glob",
+  "license": "MIT",
+  "repository": "iguntur/ln-cli",
+  "preferGlobal": true,
+  "author": {
+    "name": "Guntur Poetra",
+    "email": "poetra.guntur@gmail.com",
+    "url": "http://guntur.starmediateknik.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "dotfiles",
+    "glob",
+    "link",
+    "ln",
+    "symbolic",
+    "symlinks",
+    "tool",
+    "unlink"
+  ],
+  "dependencies": {
+    "del-symlinks": "^0.1.2",
+    "make-symlinks": "^0.1.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "execa": "^0.4.0",
+    "is-symbolic-link": "^1.0.3",
+    "rimraf": "^2.5.4",
+    "xo": "^0.16.0"
+  }
+}
