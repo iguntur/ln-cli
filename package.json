@@ -1,6 +1,6 @@
 {
   "name": "ln-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create or delete symlinks using glob",
   "license": "MIT",
   "repository": "iguntur/ln-cli",
