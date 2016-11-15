@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "del-symlinks": "^0.1.2",
-    "make-symlinks": "^0.1.2",
+    "make-symlinks": "^1.0.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
